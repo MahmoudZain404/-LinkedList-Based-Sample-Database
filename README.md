@@ -12,7 +12,7 @@
  *-- Add_Student(); --*
  
  Function Description: once the function is called it asks the user for the new student information to add it to the LinkedList 
- and after adding the new student node it calls the function Sort_list(); to sort the LinkedList by ID
+ and after adding the new student node it calls the function Sort_list(); this function uses bubble sort algorithm to sort the LinkedList by ID
  
  *--------------------*
  
