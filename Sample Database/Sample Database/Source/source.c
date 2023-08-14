@@ -68,11 +68,11 @@
 
      struct student* h = head;
      struct student* start = head;
-     struct student* last = NULL;
+     struct student* end = NULL;
 
-      while (last == NULL || last != start)
+      while (end == NULL || end != start)
      {
-         struct student* mid = get_middle(start, last);
+         struct student* mid = get_middle(start, end);
 
          if (mid == NULL)
              return NULL;
@@ -96,7 +96,7 @@
          }
          else
          {
-             last = mid;
+             end = mid;
          }
      }
       printf("Student ID Unavailable!");
