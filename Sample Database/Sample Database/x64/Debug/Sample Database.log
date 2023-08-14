@@ -1,7 +1,0 @@
-﻿  Main.c
-E:\MicrosoftVitualStudio\Projects\Sample Database\Sample Database\Source\source.c(236,29): warning C4098: 'Delete_student': 'void' function returning a value
-  source.c
-E:\MicrosoftVitualStudio\Projects\Sample Database\Sample Database\Source\source.c(236,29): warning C4098: 'Delete_student': 'void' function returning a value
-  Generating Code...
-E:\MicrosoftVitualStudio\Projects\Sample Database\Sample Database\Source\source.c(139): warning C4716: 'Sort_list': must return a value
-  Sample Database.vcxproj -> E:\MicrosoftVitualStudio\Projects\Sample Database\x64\Debug\Sample Database.exe
