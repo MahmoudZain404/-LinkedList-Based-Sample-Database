@@ -42,15 +42,15 @@
          return NULL;
 
      struct student* mid = start;
-     struct student* fast = start->nextnode;
+     struct student* advhead = start->nextnode;
 
-     while (fast != end)
+     while (advhead != end)
      {
-         fast = fast->nextnode;
+         advhead = advhead->nextnode;
          if (fast != end)
          {
              mid = mid->nextnode;
-             fast = fast->nextnode;
+             advhead = advhead->nextnode;
          }
      }
 
