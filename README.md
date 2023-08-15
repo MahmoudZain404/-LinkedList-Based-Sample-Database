@@ -4,8 +4,11 @@
  *__________Sample Database__________*
  * Created: 8/11/2023 11:15:48 PM
  *  Author: Mahmoud Zain Salah
-
+ * Development platform: Visual Studio 2022
  */ 
+
+* To execute the program open "Sample Database\Sample Database.sln" using Visual Studio 2022 *
+
 
  Functions Available:
 
