@@ -234,29 +234,39 @@ static void Delete_student()
     }
     else 
     {
-        while (prev->nextnode->student_ID != ID)
+     
+         if (prev->nextnode == NULL)
         {
-                if (prev->nextnode->nextnode == NULL && prev->nextnode->student_ID != ID)
-                {
-                    printf("\nID NOT FOUND!\n");
-                    return 0;
-                }
-                else
-                {
-                    prev = prev->nextnode;
-                }
+            printf("\nID NOT FOUND!\n");
+            return 0;
         }
-         student *tobedeleted = prev->nextnode;
-         if (prev->nextnode->nextnode != NULL)
-         {
-                prev->nextnode = prev->nextnode->nextnode;
-         }
-         else
-         {
-                prev->nextnode = NULL;
-         }
+        else
+        {
 
-         free(tobedeleted);
+            while (prev->nextnode->student_ID != ID)
+            {
+                    if (prev->nextnode->nextnode == NULL && prev->nextnode->student_ID != ID)
+                    {
+                        printf("\nID NOT FOUND!\n");
+                        return 0;
+                    }
+                    else
+                    {
+                        prev = prev->nextnode;
+                    }
+            }
+             student *tobedeleted = prev->nextnode;
+             if (prev->nextnode->nextnode != NULL)
+             {
+                    prev->nextnode = prev->nextnode->nextnode;
+             }
+             else
+             {
+                    prev->nextnode = NULL;
+             }
+
+             free(tobedeleted);
+        }
     }
    
 
