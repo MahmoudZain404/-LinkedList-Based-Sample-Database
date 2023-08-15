@@ -104,12 +104,12 @@
  }
 
 
- static struct student* swap(struct student* ptr1, struct student* ptr2)
+ static struct student* swap(struct student* prev, struct student* next)
  {
-     struct student* temp = ptr2->nextnode;
-     ptr2->nextnode = ptr1;
-     ptr1->nextnode = temp;
-     return ptr2;
+     struct student* temp = next->nextnode;
+     next->nextnode = prev;
+     prev->nextnode = temp;
+     return next;
  }
 
 
