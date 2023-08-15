@@ -47,7 +47,7 @@
      while (advhead != end)
      {
          advhead = advhead->nextnode;
-         if (fast != end)
+         if (advhead != end)
          {
              mid = mid->nextnode;
              advhead = advhead->nextnode;
