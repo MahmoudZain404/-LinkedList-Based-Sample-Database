@@ -120,7 +120,7 @@
      struct student** current;
      int i, j, swapped;
 
-     for (i = 0; i <= count; i++) 
+     for (i = 0; i < count; i++) 
      {
 
          current = head;
