@@ -11,7 +11,7 @@
 
 
 
- Available Functions:
+ Functions Available:
 
  *-- Add_Student(); --*
  
