@@ -40,8 +40,8 @@ struct student* Search_ID();
 
 struct student* get_middle(struct student* start, struct student* end);
 
-struct student* swap(struct student* ptr1, struct student* ptr2);
+struct student* swap(struct student* prev, struct student* next);
 
-int list_lingth(void);
+int list_lingth();
 
 #endif // BASE_H
