@@ -21,7 +21,7 @@
 
 
 
- static int list_lingth()
+ static int list_length()
  {
      student* current = head;
 
@@ -115,7 +115,7 @@
 
  static int Sort_list(struct student** head)
  {
-     int count = list_lingth();
+     int count = list_length();
 
      struct student** current;
      int i, j, swapped;
