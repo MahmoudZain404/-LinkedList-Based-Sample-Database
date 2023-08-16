@@ -34,14 +34,14 @@ void Add_Student(void);
 
 int Sort_list(struct student** head);
 
-void Delete_student();
+void Delete_student(void);
 
-struct student* Search_ID();
+struct student* Search_ID(void);
 
 struct student* get_middle(struct student* start, struct student* end);
 
 struct student* swap(struct student* prev, struct student* next);
 
-int list_lingth();
+int list_lingth(void);
 
 #endif // BASE_H
