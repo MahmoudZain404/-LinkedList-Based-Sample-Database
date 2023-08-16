@@ -42,6 +42,6 @@ struct student* get_middle(struct student* start, struct student* end);
 
 struct student* swap(struct student* prev, struct student* next);
 
-int list_lingth(void);
+int list_length(void);
 
 #endif // BASE_H
