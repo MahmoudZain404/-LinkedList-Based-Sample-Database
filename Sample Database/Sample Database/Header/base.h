@@ -13,11 +13,6 @@
 
 #define COURSES_NUM (3)
 
-typedef enum boolean
-{
-    TRUE = 1,
-    FALSE = 0
-} boolean;
 
 typedef struct Course
 {
